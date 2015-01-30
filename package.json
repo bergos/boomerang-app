@@ -1,0 +1,35 @@
+{
+  "name": "boomerang-app",
+  "version": "0.0.1",
+  "description": "BoomerangJS App Utils",
+  "keywords": [
+    "App",
+    "BoomerangJS",
+    "Computing",
+    "Promise"
+  ],
+  "author": {
+    "name": "Thomas Bergwinkl",
+    "email": "bergi@axolotlfarm.org"
+  },
+  "license": "MIT",
+  "homepage": "http://www.boomerangjs.org",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zazukoians/boomerang-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bergos/zazukoians/boomerang-app/issues"
+  },
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "rdf-jsonify": "0.1.*"
+  },
+  "devDependencies": {
+    "es6-promises": "1.*"
+  },
+  "readmeFilename": "README.md"
+}
