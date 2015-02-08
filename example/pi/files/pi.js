@@ -56,5 +56,7 @@ module.exports = function (app) {
       pi = four.times(((four.times(a_1_5)).minus(a_1_239)));
 
       console.log(pi.toString());
-    })
+
+      app.setResult(pi.toString());
+    });
 };
