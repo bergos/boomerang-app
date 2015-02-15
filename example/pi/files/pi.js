@@ -2,7 +2,7 @@ var BigNumber = require('./bignumber');
 
 
 module.exports = function (app) {
-  var digits = 30;
+  var digits = 100;
 
   BigNumber.config({DECIMAL_PLACES: digits});
 
@@ -58,5 +58,5 @@ module.exports = function (app) {
       console.log(pi.toString());
 
       app.setResult(pi.toString());
-    });
+    })
 };
